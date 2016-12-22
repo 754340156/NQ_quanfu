@@ -1,0 +1,62 @@
+//
+//  PrefixHeader.pch
+//  FullRich
+//
+//  Created by 任强宾 on 16/10/26.
+//  Copyright © 2016年 任强宾. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/******************第三方类库*****************/
+#import <AFNetworking/AFNetworking.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <SDCycleScrollView/SDCycleScrollView.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <Masonry/Masonry.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MJExtension/MJExtension.h>
+#import <MJRefresh/MJRefresh.h>
+#import <UMSocial.h>
+#import <UITableView_FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-umbrella.h>
+
+#import <BlocksKit/BlocksKit.h>
+#import <KVOController/KVOController.h>
+
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
+#import "UINavigationController+WXSTransition.h"
+
+
+#import "SDCycleScrollView+Extend.h"    //轮播扩展
+
+#import "Log.h"             //Log类库
+
+#import "CommonLibrary.h"
+#import "QBHeader.h"        //QB类库
+#import "NetWork.h"         //网络请求工具
+#import "Common.h"          //通用
+
+#import "Tools.h"           //工具类
+#import "Single.h"          //单例
+#import "Animation.h"       //动画
+#import "Tool.h"            //工具
+#import "Color.h"           //颜色
+#import "Image.h"           //图片、图片名称
+#import "String.h"          //字符串
+#import "Font.h"            //字体
+#import "Layout.h"          //布局
+#import "Rule.h"            //相关规则
+#import "Switch.h"          //开关
+
+#import "Interface.h"       //网络接口
+#import "ThirdConfi.h"      //第三方配置
+
+#import "UserModel.h"       //用户信息
+
+#import "GoodsDetailVC.h"   //商品详情
+#import "GoodsDetailConfig.h" // 商品详情布局ui控件的基本设置
+
+#endif /* PrefixHeader_pch */

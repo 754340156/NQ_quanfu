@@ -1,0 +1,6 @@
+framework module Pods_allrichstore {
+  umbrella header "Pods-allrichstore-umbrella.h"
+
+  export *
+  module * { export * }
+}
